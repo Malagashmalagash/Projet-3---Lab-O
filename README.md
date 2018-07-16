@@ -1,3 +1,41 @@
+Projet 3 - Création d'un site pour le Lab'O
+
+## Description :
+
+Création d'un site web, utilisable sur tablette, pour facilité la gestion de la remise des clefs par les membres du Lab'O et de la Pépinière.
+Projet de 8 semaines, 10h / semaine.
+Groupe de 5 personnes.
+
+## Problématiques client :
+
+À ce jour, toute personne souhaitant louer une salle, se doit de passer par l’accueil du Lab’O afin de noter sur le formulaire papier:
+
+  - Initiales de la personnes présente à l’accueil ou son nom
+  - La date du jour
+  - La salle sélectionnée
+  - Nom, Prénom
+  - Cocher la case “clefs remises”
+  - Formation SSI
+  - Doubles clefs
+  - Signature
+
+## Cahier des charges :
+
+Le site doit être optimisé pour tablette, et remplacer le systeme papier.
+
+De plus, le client souhaite :
+  - Enregistrer un délai d’utilisation de la salle
+  - Envoi par mail de notification en cas de dépassement du délai d’utilisation (enregistrement de la date de remise des clefs)
+  - Page d’administration permettant de monitorer les salles disponibles et celles occupées, et de cocher une fois la remise des clefs faite après utilisation. Laisser un champ commentaire libre par salle avant la remise des clefs, et après la remise.
+La possibilité de signer le formulaire directement sur la tablette
+
+## Propositions de l'équipe qui ont été réalisées :
+
+  - Gestion d'une liste d'équipements, associable à la réservatino de la salle, ou prennable séparement.
+  - Possibilité d'ordonner le personnel / équipement par ordre d'importance.
+  - Les champs "Formation SSI", "Double des clefs" se gèrent automatiquement en fonction de l'heure de la réservation et de la salle louée.
+  - Archivage automatique des reservations lors de leurs clotures. Celle-ci sont supprimées automatiquement au bout de 3 mois (RGPD)
+
 Lab'O project
 ========================
 
@@ -13,15 +51,10 @@ System requirements
 -------------------
 
 * PHP 7.1;
-
 * Web-server (Apache or Nginx);
-
 * Database (MySQL/MariaDB or PostgreSQL);
-
 * composer https://getcomposer.org/doc/00-intro.md
-
 * npm https://www.npmjs.com/get-npm
-
 
 How To Use
 ----------
