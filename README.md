@@ -2,7 +2,7 @@ Projet 3 - Création d'un site pour le Lab'O
 
 ## Description :
 
-Création d'un site web, utilisable sur tablette, pour facilité la gestion de la remise des clefs par les membres du Lab'O et de la Pépinière.
+Création d'un site web, utilisable sur tablette, pour faciliter la gestion de la remise des clefs par les membres du Lab'O et de la Pépinière.
 Projet de 8 semaines, 10h / semaine.
 Groupe de 5 personnes.
 
@@ -35,6 +35,24 @@ La possibilité de signer le formulaire directement sur la tablette
   - Possibilité d'ordonner le personnel / équipement par ordre d'importance.
   - Les champs "Formation SSI", "Double des clefs" se gèrent automatiquement en fonction de l'heure de la réservation et de la salle louée.
   - Archivage automatique des reservations lors de leurs clotures. Celle-ci sont supprimées automatiquement au bout de 3 mois (RGPD)
+
+## Buts recherchés :
+  - Apprentissage du travail en groupe via l'utilisation de GitHub :
+      - Mise en place de la méthode de travail agile SCRUM (Un membre de l'équipe devient Product Owner chaque semaine, et anime les réunions journalières).
+      - Mise en place d'une méthode de travail branche_en_cours -> dev -> master controlée par le PO.
+      
+  - Gestion de projet : 
+      - Création d'un Wireframe pour recueillir les avis clients sur l'agencement du site.
+      - Rétrospective hebdomadaire devant le client du travail effectué.
+      - Animation des réunions avec le client, et reccueil de ses besoins lors des réunions, pour présenter à la fin de chaque sprint l'avancé du projet au client.
+      
+  - Technique :
+      - Utilisation Symfony 3.4.
+      - Utilisation de Webpack (SCSS, JS, jQuery, Bootstrap 3.3.7).
+      - Utilisation du moteur de template "Twig".
+      - Utilisation de bundles : Vish Uploader, Swift Mailer.
+      - Utilisation de Cron, pour automatiser l'envoie de mails.
+
 
 Lab'O project
 ========================
